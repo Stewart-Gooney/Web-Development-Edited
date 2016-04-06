@@ -1,0 +1,90 @@
+/*Web Assignmet design stylesheet*/
+
+.wrapper
+{
+	width:1189px;
+	height:auto;
+	margin:auto;
+}
+.container
+{
+	width:100%;
+	background:linear-gradient(white, beige);
+	margin:auto;
+}
+.header
+{
+	height:100px;
+	width:100%;
+	margin:auto;
+}
+.nav_bar
+{
+	width:100%;
+	margin-right:2px;
+}
+ul 
+{
+    list-style-type:none;
+    padding:10px;
+    overflow:hidden;
+    background-color:#333;
+}
+li 
+{
+    float:left;
+}
+
+li a 
+{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 80px;
+    text-decoration:none;
+}
+li a:hover 
+{
+    background-color:#eee;
+	color:blue;
+}
+
+.display_left
+{
+	width:35%;
+	float:left;
+	margin-left:105px;
+	margin-top:320px;
+    background:linear-gradient(white, beige);
+	text-align:center;
+}
+.display_right
+{
+	width:35%;
+    background:linear-gradient(white, beige);
+	float:right;
+	margin-right:105px;
+	margin-top:320px;
+	text-align:center;
+}
+.image_display
+{
+	width:20%;
+	clear:both;
+	display:inline-block;
+	margin-top:30px;
+	margin-left:100px;
+}
+.social_icons
+{
+	float:right;
+	height:68px;
+}
+.footer
+{
+	width:100%;
+	height:auto;
+	background-color:#eee;
+	margin-top:30px;
+}
+

@@ -1,0 +1,120 @@
+/*Web Assignmet photography stylesheet*/
+
+.wrapper
+{
+	width:1189px;
+	height:auto;
+	margin:auto;
+}
+.container
+{
+	width:100%;
+	margin:auto;	
+}
+.header
+{
+	width:100%;
+	margin:auto;
+}
+.nav_bar
+{
+	width:100%;
+	margin-right:2px;
+}
+ul 
+{
+    list-style-type:none;
+    padding:10px;
+    overflow:hidden;
+    background-color:#333;
+}
+li 
+{
+    float:left;
+}
+
+li a 
+{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 80px;
+    text-decoration:none;
+}
+li a:hover 
+{
+    background-color:#eee;
+	color:blue;
+}
+.left_aside
+{
+	width:20%;
+	margin-left:0px;
+	float:left;
+	margin-top:10px;
+}
+.left_aside img
+{
+	border-radius:100px;
+	margin-top:5px;
+}
+.right_aside
+{
+	width:20%;
+	margin-right:0px;
+	float:right;
+	margin-top:10px;
+	padding:1px;
+}
+.right_aside img
+{
+	border-radius:100px;
+	margin-top:5px;
+}
+.main_content_area
+{
+	width:40%;
+	float:left;
+	margin-top:10px;
+	margin-left:40px;
+	
+}
+.pop	
+{	
+	position:absolute;
+	padding:2px;
+    visibility:hidden;
+	z-index:10;
+}
+a:hover .pop        
+{	
+	visibility:visible;
+	background-color:lightblue;
+}				
+#zindex_images		
+{	
+	width:600px;
+	height:120px;
+	background-color:#ffffff;
+	margin-left:20px;
+}
+#zindex_images ol
+{
+	list-style-type:none;
+	display:inline-block;
+}
+#zindex_images a{
+	color:blue;
+}
+.social_icons
+{
+	float:right;
+	height:68px;
+}
+.footer
+{
+	width:100%;
+	clear:both;
+	margin-top:40px;
+	background-color:#eee;
+}

@@ -1,0 +1,111 @@
+/*Web Assignmet home page stylesheet*/
+
+.container
+{
+	width:1240px;
+	height:880px;
+	margin:auto;
+}
+.header
+{
+	width:1240px;
+	margin:auto;
+}
+.button 
+{
+   	background : linear-gradient(grey, white);
+    border: none;
+    color: white;
+    padding: 25px 43px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	position:absolute;
+	margin-left:495px;
+	margin-top:20px;
+	border-radius:10px;	
+}
+#intro
+{
+	position:absolute;
+	font-size:25px;
+	margin-left:200px;
+	margin-top:130px;
+	text-align:center;
+	font-style:oblique;
+	color:#eee;
+}
+.nav_bar
+{
+	width:1240px;
+	margin:auto;
+}
+ul 
+{
+    list-style-type:none;
+    padding:10px;
+    overflow:hidden;
+    background-color:#333;
+}
+li 
+{
+    float:left;
+}
+
+li a 
+{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 80px;
+    text-decoration:none;
+}
+li a:hover 
+{
+    background-color:#eee;
+	color:blue;
+}
+.left_aside
+{
+	width:300px;
+	height:424px;
+	float:left;
+	margin-top:10px;	 
+}
+.right_aside
+{
+	width:300px;
+	height:424px;
+	float:right;
+	margin-top:10px;	
+}
+
+.content
+{
+	width:600px;
+	height:300px;
+	margin-top:10px;		
+	float:left;
+	margin-left:17px;
+	text-align:justify;
+}
+.help
+{
+	cursor:help;
+}
+.content img
+{
+	float:right;
+}
+.social_icons
+{
+	float:right;
+	height:68px;
+}
+.footer
+{
+	width:1240px;
+	height:100px;
+	margin-top:470px;
+	background-color:#eee;
+}
